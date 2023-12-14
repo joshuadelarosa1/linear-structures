@@ -11,6 +11,7 @@ public class ArrayBasedStackExpt {
    */
   public static void main(String[] args) throws Exception {
     LinearStructureExpt.expt01(new ArrayBasedStack<String>(16), "size16.");
+    System.out.println(" -------------- ");
     LinearStructureExpt.expt01(new ArrayBasedStack<String>(4), "size04.");
   } // main(String[])
 } // class ArrayBasedStackExpt
